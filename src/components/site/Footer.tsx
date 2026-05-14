@@ -46,9 +46,9 @@ export function Footer() {
               العربية لتنمو بثقة وكفاءة.
             </p>
             <div className="space-y-2 pt-2 text-sm text-white/70">
-              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary-glow" /> hello@rakeeza.sa</div>
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary-glow" /> 920000000</div>
-              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary-glow" /> الرياض، المملكة العربية السعودية</div>
+              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary-glow" /><span>hello@rakeeza.sa</span></div>
+              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary-glow" /><span>920000000</span></div>
+              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary-glow" /><span>الرياض، المملكة العربية السعودية</span></div>
             </div>
           </div>
 
