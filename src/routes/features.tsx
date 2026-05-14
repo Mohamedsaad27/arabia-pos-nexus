@@ -7,8 +7,8 @@ import { CTA } from "@/components/site/CTA";
 export const Route = createFileRoute("/features")({
   head: () => ({
     meta: [
-      { title: "المميزات — نُقطة" },
-      { name: "description", content: "اكتشف جميع مميزات منصة نُقطة لإدارة الأعمال والمبيعات." },
+      { title: "المميزات — ركيزة" },
+      { name: "description", content: "اكتشف جميع مميزات منصة ركيزة لإدارة الأعمال والمبيعات." },
     ],
   }),
   component: FeaturesPage,

@@ -6,8 +6,8 @@ import { Mail, Phone, MapPin, Send, MessageCircle } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "تواصل معنا — نُقطة" },
-      { name: "description", content: "تواصل مع فريق نُقطة. نحن هنا لمساعدتك على مدار الساعة." },
+      { title: "تواصل معنا — ركيزة" },
+      { name: "description", content: "تواصل مع فريق ركيزة. نحن هنا لمساعدتك على مدار الساعة." },
     ],
   }),
   component: ContactPage,
@@ -36,7 +36,7 @@ function ContactPage() {
             <div className="lg:col-span-2 space-y-4">
               {[
                 { i: Phone, t: "اتصل بنا", d: "920000000", s: "السبت - الخميس · 9ص - 11م" },
-                { i: Mail, t: "راسلنا", d: "hello@nuqta.sa", s: "نرد خلال أقل من ساعتين" },
+                { i: Mail, t: "راسلنا", d: "hello@rakeeza.sa", s: "نرد خلال أقل من ساعتين" },
                 { i: MessageCircle, t: "واتساب", d: "+966 50 000 0000", s: "دعم فوري 24/7" },
                 { i: MapPin, t: "المقر", d: "الرياض، المملكة العربية السعودية", s: "حي الملقا" },
               ].map((c) => (
