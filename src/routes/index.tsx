@@ -11,7 +11,7 @@ import { CTA } from "@/components/site/CTA";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "نُقطة — نظام كاشير وإدارة أعمال سحابي متكامل" },
+      { title: "ركيزة — نظام كاشير وإدارة أعمال سحابي متكامل" },
       { name: "description", content: "منصة سحابية احترافية لإدارة المبيعات والمخزون والفروع والعملاء — مصممة للأعمال العربية." },
     ],
   }),

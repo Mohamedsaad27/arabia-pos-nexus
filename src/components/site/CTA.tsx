@@ -14,7 +14,7 @@ export function CTA() {
               جاهز لتنمية أعمالك؟
             </h2>
             <p className="mt-4 text-white/85 text-lg">
-              انضم لآلاف التجار الذين اختاروا نُقطة لإدارة أعمالهم بثقة وكفاءة.
+              انضم لآلاف التجار الذين اختاروا ركيزة لإدارة أعمالهم بثقة وكفاءة.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Link

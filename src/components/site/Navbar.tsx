@@ -39,7 +39,7 @@ export function Navbar() {
             <span className="grid place-items-center w-10 h-10 rounded-xl gradient-primary shadow-glow">
               <Sparkles className="w-5 h-5 text-white" />
             </span>
-            <span className="font-extrabold text-xl text-foreground">نُقطة</span>
+            <span className="font-extrabold text-xl text-foreground">ركيزة</span>
           </Link>
 
           {/* Desktop nav */}

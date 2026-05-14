@@ -95,7 +95,7 @@ function DashboardMock() {
             <span className="w-3 h-3 rounded-full bg-warning/80" />
             <span className="w-3 h-3 rounded-full bg-success/80" />
           </div>
-          <div className="text-xs font-medium text-muted-foreground">لوحة التحكم — نُقطة</div>
+          <div className="text-xs font-medium text-muted-foreground">لوحة التحكم — ركيزة</div>
         </div>
 
         {/* Stats row */}

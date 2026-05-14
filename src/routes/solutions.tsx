@@ -7,7 +7,7 @@ import { CTA } from "@/components/site/CTA";
 export const Route = createFileRoute("/solutions")({
   head: () => ({
     meta: [
-      { title: "الحلول — نُقطة" },
+      { title: "الحلول — ركيزة" },
       { name: "description", content: "حلول مخصصة لكل نوع نشاط تجاري: مطاعم، مقاهي، تجزئة، صيدليات، وأكثر." },
     ],
   }),

@@ -7,8 +7,8 @@ import { CTA } from "@/components/site/CTA";
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "الأسئلة الشائعة — نُقطة" },
-      { name: "description", content: "إجابات للأسئلة الأكثر شيوعاً حول منصة نُقطة." },
+      { title: "الأسئلة الشائعة — ركيزة" },
+      { name: "description", content: "إجابات للأسئلة الأكثر شيوعاً حول منصة ركيزة." },
     ],
   }),
   component: FaqPage,

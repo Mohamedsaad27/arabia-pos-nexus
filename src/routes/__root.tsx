@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "نُقطة — نظام كاشير وإدارة أعمال سحابي متكامل" },
+      { title: "ركيزة — نظام كاشير وإدارة أعمال سحابي متكامل" },
       { name: "description", content: "نظام نقاط بيع وإدارة أعمال سحابي متكامل لتنمية تجارتك. مبيعات، مخزون، تقارير، فروع متعددة، وأكثر." },
-      { name: "author", content: "Nuqta" },
-      { property: "og:title", content: "نُقطة — نظام كاشير وإدارة أعمال سحابي" },
+      { name: "author", content: "Rakeeza" },
+      { property: "og:title", content: "ركيزة — نظام كاشير وإدارة أعمال سحابي" },
       { property: "og:description", content: "منصة سحابية احترافية لإدارة المبيعات والمخزون والفروع." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

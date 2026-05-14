@@ -7,7 +7,7 @@ import { FAQ } from "@/components/site/FAQ";
 export const Route = createFileRoute("/pricing")({
   head: () => ({
     meta: [
-      { title: "الأسعار — نُقطة" },
+      { title: "الأسعار — ركيزة" },
       { name: "description", content: "خطط أسعار شفافة ومرنة لجميع أحجام الأعمال." },
     ],
   }),
