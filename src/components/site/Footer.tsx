@@ -7,16 +7,16 @@ export function Footer() {
       title: "المنتج",
       links: [
         { to: "/features", label: "المميزات" },
-        { to: "/solutions", label: "الحلول" },
+        { to: "/industries", label: "الصناعات" },
         { to: "/pricing", label: "الأسعار" },
       ],
     },
     {
       title: "الشركة",
       links: [
-        { to: "/", label: "من نحن" },
+        { to: "/about", label: "من نحن" },
+        { to: "/blog", label: "المدونة" },
         { to: "/contact", label: "تواصل معنا" },
-        { to: "/faq", label: "الأسئلة الشائعة" },
       ],
     },
     {
@@ -24,10 +24,10 @@ export function Footer() {
       links: [
         { to: "/contact", label: "مركز المساعدة" },
         { to: "/contact", label: "الدعم الفني" },
-        { to: "/faq", label: "التوثيق" },
+        { to: "/faq", label: "الأسئلة الشائعة" },
       ],
     },
-  ];
+  ] as const;
 
   return (
     <footer className="relative mt-32 bg-navy text-white overflow-hidden">

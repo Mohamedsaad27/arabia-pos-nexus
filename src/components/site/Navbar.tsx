@@ -4,10 +4,11 @@ import { Menu, X, Sparkles } from "lucide-react";
 
 const links = [
   { to: "/", label: "الرئيسية" },
+  { to: "/about", label: "من نحن" },
   { to: "/features", label: "المميزات" },
-  { to: "/solutions", label: "الحلول" },
+  { to: "/industries", label: "الصناعات" },
   { to: "/pricing", label: "الأسعار" },
-  { to: "/faq", label: "الأسئلة الشائعة" },
+  { to: "/blog", label: "المدونة" },
   { to: "/contact", label: "تواصل معنا" },
 ] as const;
 
