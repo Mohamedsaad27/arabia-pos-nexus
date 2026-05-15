@@ -2,9 +2,16 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { Hero } from "@/components/site/Hero";
-import { Features } from "@/components/site/Features";
+import { TrustedBy } from "@/components/site/TrustedBy";
+import { ERPOverview } from "@/components/site/ERPOverview";
+import { POSOverview } from "@/components/site/POSOverview";
+import { InventorySection } from "@/components/site/InventorySection";
+import { AnalyticsSection } from "@/components/site/AnalyticsSection";
+import { MultiBranchSection } from "@/components/site/MultiBranchSection";
+import { IntegrationsSection } from "@/components/site/IntegrationsSection";
 import { Solutions } from "@/components/site/Solutions";
-import { Pricing } from "@/components/site/Pricing";
+import { Testimonials } from "@/components/site/Testimonials";
+import { StatsSection } from "@/components/site/StatsSection";
 import { FAQ } from "@/components/site/FAQ";
 import { CTA } from "@/components/site/CTA";
 
@@ -24,9 +31,16 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
-        <Features />
+        <TrustedBy />
+        <ERPOverview />
+        <POSOverview />
+        <InventorySection />
+        <AnalyticsSection />
+        <MultiBranchSection />
+        <IntegrationsSection />
         <Solutions />
-        <Pricing />
+        <Testimonials />
+        <StatsSection />
         <FAQ />
         <CTA />
       </main>
