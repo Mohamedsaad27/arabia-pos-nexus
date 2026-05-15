@@ -184,9 +184,18 @@
     0% { box-shadow: 0 0 0 0 oklch(0.62 0.20 260 / 0.4); }
     100% { box-shadow: 0 0 0 20px oklch(0.62 0.20 260 / 0); }
   }
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 
   .animate-float-slow { animation: float-slow 7s ease-in-out infinite; }
   .animate-float-fast { animation: float-fast 4s ease-in-out infinite; }
   .animate-fade-up { animation: fade-up 0.7s ease-out both; }
   .animate-pulse-ring { animation: pulse-ring 2s ease-out infinite; }
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+  }
 }
