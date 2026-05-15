@@ -1,7 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
-import { Pricing } from "@/components/site/Pricing";
+import {
+  Pricing,
+  FeatureComparison,
+  Testimonials,
+  FreeTrialBanner,
+  CompetitorComparison,
+} from "@/components/site/Pricing";
 import { FAQ } from "@/components/site/FAQ";
 
 export const Route = createFileRoute("/pricing")({
@@ -31,6 +37,10 @@ function PricingPage() {
           </p>
         </div>
         <Pricing />
+        <FeatureComparison />
+        <Testimonials />
+        <FreeTrialBanner />
+        <CompetitorComparison />
         <FAQ />
       </main>
       <Footer />
